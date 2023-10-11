@@ -1,22 +1,73 @@
+/* text formatting */
 body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	background-color: rgb(93,109,126);
 }
-
 h1 {
-	padding.top: 2em;
+	text-align: center;
+	padding.top: 5px;
+	padding: 1;
 }
-
 p {
-	margin: 2000em 0;
-	margin.left: 5000px;
-	margin.right: 5000px;
+	text-align: left;
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
-img {
-	width: 40em;
-	max-width: 90%;
-	Padding: 5px,5px,5px;
+a {
+	color: black;
+}
+ul {
+	text-align: left;
+	padding-left: 10%;
+}
 
+/* images */
+img {
+	width: 100%;
+	margin: auto;
+	max-width: 100%;
+}
+img:hover {
+  transition: transform .1s;
+  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* div styles */
+.header {
+	 background-color: rgb( 242, 243, 244);
+	 /*background-image: linear-gradient(to right, rgb(42,43,44), rgb(0,0,0));*/
+		overflow: hidden;
+}
+.mainmenu {
+		background-color: #333;
+		overflow: hidden;
+		padding: 10px;
+	}
+.mainmenu a {
+	float: center;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 10px 80px;
+	font-size: 16px;
+	font-family: 'Montserrat Bold',Futura,Trebuchet MS,Arial,sans-serif;
+}
+.gallery {
+	border-width: 3px;
+	border-style: solid;
+	boder-color: #333;
+	width: 50%;
+	padding: 10px;
+	padding-bottom: 10px;
+	background-color: rgb( 242, 243, 244);
+	margin: auto;
+	text-align: center;
+}
+.links {
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+	padding: 10px;h
 }

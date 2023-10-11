@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Curtis Rochelle - Level Design</title>
+	<link rel="stylesheet" href="style.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Pixelify Sans' rel='stylesheet'>
+
+	<style>
+		h1 { 
+			font-family: 'Montserrat Bold',Futura,Trebuchet MS,Arial,sans-serif;
+			font-size: 36pt; 
+			font-weight: 700px; 
+		}
+		h2 { 
+			font-family: 'Montserrat Bold',Futura,Trebuchet MS,Arial,sans-serif;
+			font-size: 16pt;  
+			color: #f2f2f2;
+		}
+		p { 
+			font-family: 'Open Sans',Futura,Trebuchet MS,Arial,sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 8pt;
+		}
+	</style>
+</head>
+<body>
+<!--Header and Main Menu -->
+	<a style="text-decoration: none"href="index.html"><div class="header">
+		<h1>Curtis Rochelle - Level Design</h1>
+	</div></a>
+
+	<div class="mainmenu">
+		<a class="active" href="pro.html">Professional Work</a>
+		<a href="personal.html">Personal Work</a>
+		<a href="about.html">About Me</a>
+	</div>
+	<h2>Camp Dragonhead Scene</h2>
+	
+	<div class="gallery">
+		<img src="assets/images/personal/3dpixelscene/Rochelle_Dragonhead2D.gif">
+		<p>A 3D scene of Camp Dragonhead from Final Fantasy XIV, created in a 3D pixel art style inspired by Octopath Traveler and similar games.</p> 
+		<p><b>Software Used:</b> Unreal Engine 5, Blender, Pyxel Edit, Photoshop</p>
+		<p>I modeled everything in Blender and set up the scene in Unreal Engine 5. I drew the character sprites in Pyxel Edit. For the textures, I mostly used Pyxel Edit along with some Photoshop, mostly for 1:1 UVs and generating normal maps. On some textures, the Photoshop normals didn't get the effect I wanted so I drew custom normals in Pyxel.</p>
+		<p>Most of the textures are handmade, except for a few of the particle effect textures, where I used Unreal's built-in noise textures multiplied with a base color. To make these blend better with the pixel textures, I ran them through a simple material function to create a pixelated effect on the final material.</p> 
+		<p>I find that blending 2D sprite characters with the 3D environment is one of the most interesting challenges for this kind of project. My experience working on Witch was helpful in making the effect work in this scene. Most of the effect comes down to adjusting specific camera settings and post process effects, along with carefully composing the scene with the intended camera angle in mind.</p>
+		<img src="assets/images/personal/3dpixelscene/ModelingProgress.png">
+		<p>Early progress shots of some of the larger models. For the wall segments, I created a simple wall construction blueprint that spawns a set number of wall instances and caps it on either end with a tower or a staircase piece. I wouldn't normally do that for a static scene, but it worked well in this case as it made experimenting with the wall placement easier.</p>
+		<img src="assets/images/personal/3dpixelscene/Dragonhead2D_Final.jpg">
+		<p>Some of the textures I made for the project.</p> 
+	</div>
+</body>
+</html>
