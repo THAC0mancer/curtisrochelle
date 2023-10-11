@@ -49,20 +49,21 @@ img:hover {
 	 /*background-image: linear-gradient(to right, rgb(42,43,44), rgb(0,0,0));*/
 		overflow: hidden;
 		max-width:100%;
+		font-size:2vw;
 }
 .mainmenu {
 		background-color: #333;
 		overflow: hidden;
 		padding: 10px;
 		max-width:100%;
-		font-size:2vw;
+		
 	}
 .mainmenu a {
 	float: center;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 10px 80px;
-	font-size: 1vw;
+	padding: 10px 8vw;
+	font-size: 2vw;
 	font-family: 'Montserrat Bold',Futura,Trebuchet MS,Arial,sans-serif;
 }
 .gallery {
