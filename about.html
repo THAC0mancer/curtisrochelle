@@ -38,6 +38,24 @@
 			font-weight: normal;
 			font-size: 1rem;
 		}
+
+
+	.tooltip {
+		position: relative;
+		display:inline-block;
+	}
+	tooltip.tooltipltext {
+		visibility: hidden;
+		background-color: white;
+		color: black;
+		text-align: center;
+
+		position: absolute;
+		z-index: 1;
+	}
+	tooltip:hover .tooltiptext {
+		visibility: visible;
+	}
 	</style>
 </head>
 <body>
@@ -55,11 +73,9 @@
 	<h2>About Me</h2>
 	
 	<div class="links">
-		<a href="https://www.linkedin.com/pub/curtis-rochelle/14/b79/70"><img src="assets/images/icons/icon_linkedin.png" style="width:32px;height:32px;padding:5px"></a>
-
-		<a href = "mailto: mail@curtisrochelle.com"><img src="assets/images/icons/icon_email.png" style="width:32px;height:24px;padding:5px"></a>
-
-		
+		<a href="https://www.linkedin.com/pub/curtis-rochelle/14/b79/70"><img src="assets/images/icons/icon_linkedin.png" style="width:32px;height:32px;padding:10px" alt="LinkedIn"></a>
+		<a href="assets\docs/Rochelle_Resume.pdf"><img src="assets/images/icons/icon_resume.png" style="width:32px;height:32px;padding:10px" alt="resume"></a>
+		<a href = "mailto: mail@curtisrochelle.com"><img src="assets/images/icons/icon_email.png" style="width:32px;height:24px;padding:10px" alt="e-mail"></a>	
 	</div>
 
 	<div class="gallery">
