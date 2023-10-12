@@ -4,18 +4,21 @@ body {
 	padding: 0;
 	text-align: center;
 	background-color: rgb(93,109,126);
+	font-size: calc(12px + 0.390625vw);
 }
 h1 {
 	text-align: center;
 	padding.top: 5px;
 	padding: 1;
 	max-width:100%;
+	font-size: 2rem;
 }
 h2 {
 	text-align:center;
 	paddint.top:3px;
 	padding: 1;
 	max-width:100%;
+	font-size: 1.5rem;
 }
 p {
 	text-align: left;
@@ -42,6 +45,10 @@ img:hover {
   transition: transform .1s;
   transform: scale(1.00); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+/*img:active {
+	-webkit-transform: scale(2);
+}*/
+
 
 /* div styles */
 .header {
@@ -49,7 +56,9 @@ img:hover {
 	 /*background-image: linear-gradient(to right, rgb(42,43,44), rgb(0,0,0));*/
 		overflow: hidden;
 		max-width:100%;
-		font-size:2vw;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+		
 }
 .mainmenu {
 		background-color: #333;
@@ -62,26 +71,25 @@ img:hover {
 	float: center;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 10px 8vw;
-	font-size: 2vw;
+	padding: 3rem;
 	font-family: 'Montserrat Bold',Futura,Trebuchet MS,Arial,sans-serif;
+	font-size: calc(12px + 0.390625vw);
 }
 .gallery {
 	border-width: 3px;
 	border-style: solid;
 	boder-color: #333;
 	max-width: 70vw;
+	min-width: 50vw;
 	padding: 10px;
 	padding-bottom: 10px;
 	background-color: rgb( 242, 243, 244);
 	margin: auto;
 	text-align: center;
-
 }
 .links {
 	margin: auto;
 	text-align: center;
 	overflow: hidden;
 	padding: 10px;h
-	font-size: 2vw;
 }
