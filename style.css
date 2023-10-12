@@ -4,7 +4,7 @@ body {
 	padding: 0;
 	text-align: center;
 	background-color: rgb(93,109,126);
-	font-size: calc(12px + 0.390625vw);
+	font-size: calc(16px + 0.390625vw);
 }
 h1 {
 	text-align: center;
@@ -25,10 +25,12 @@ p {
 	margin-right: 5%;
 	margin-left: 5%;
 	max-width: 100%;
+	font-size: 1rem;
 }
 a {
 	color: black;
 	max-width: 100%;
+	font-size: 1rem;
 }
 ul {
 	text-align: left;
