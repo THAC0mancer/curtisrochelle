@@ -76,7 +76,7 @@ img:hover {
 	text-align: center;
 	padding: 3rem;
 	font-family: 'Montserrat Bold',Futura,Trebuchet MS,Arial,sans-serif;
-	font-size: calc(12px + 0.390625vw);
+	font-size: calc(10px + 0.390625vw);
 }
 .gallery {
 	border-width: 3px;
