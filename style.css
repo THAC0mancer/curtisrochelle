@@ -118,7 +118,7 @@ img:pointer-events: auto;
 }
 .links {
 	margin: auto;
-	text-align: right;
+	text-align: left;
 	overflow: hidden;
 	padding: 10px;
 	padding-right: 10vw;
